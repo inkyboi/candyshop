@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Alle's Candy Shop</title>
+<link rel="stylesheet" href="style.css">
+<header>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div id="logo">
+        <h1><a href="index.html" id="text">Alle's Candy Shop</a></h1>
+        <div id="logo-img">
+            <a href="index.html">
+                <img src=" https://cdn.dribbble.com/users/2536766/screenshots/6424972/cookie-bites-gif.gif"
+                    alt="cookie">
+            </a>
+        </div>
+    </div>
+    <h2>Order now!</h2>
+    <form action="mailto:pgl_matr1ce@yahoo.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <div class="form__group field">
+            <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+            <label for="name" class="form__label">Name</label>
+        </div>
+        <div class="form__group2 field">
+            <input type="input" class="form__field" placeholder="Email" name="email" id='email' required />
+            <label for="email" class="form__label">Email</label>
+        </div>
+        <section class="buttons">
+            <button type="submit" class="spin circle">Let's get FAT!</button>
+        </section>
+    </form>
+</body>
+
+</html>
